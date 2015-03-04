@@ -1,0 +1,5 @@
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseEntities\bin\Debug\TriQuint.BaseEntities.dll
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseEntities\bin\Debug\TriQuint.BaseEntities.pdb
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseEntities\obj\Debug\TriQuint.BaseEntities.csprojResolveAssemblyReference.cache
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseEntities\obj\Debug\TriQuint.BaseEntities.dll
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseEntities\obj\Debug\TriQuint.BaseEntities.pdb
