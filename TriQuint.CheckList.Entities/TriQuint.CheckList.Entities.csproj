@@ -30,12 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -54,12 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TriQuint.BaseEntities\TriQuint.BaseEntities.csproj">
-      <Project>{76264811-d493-4ea3-8b32-ef5ae1a7ac41}</Project>
-      <Name>TriQuint.BaseEntities</Name>
+    <ProjectReference Include="..\TriQuint.Interfaces\TriQuint.BaseInterfaces.csproj">
+      <Project>{b3e60324-7a42-4374-9904-2b26d239215b}</Project>
+      <Name>TriQuint.BaseInterfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

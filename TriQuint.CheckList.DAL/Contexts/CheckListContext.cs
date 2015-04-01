@@ -6,18 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TriQuint.BaseDAL;
+using TriQuint.CheckList.DAL.Contexts;
 using TriQuint.CheckList.DAL.Interfaces;
 using TriQuint.CheckList.Entities;
 
-namespace TriQuint.CheckList.DAL.Context
+namespace TriQuint.CheckList.DAL.Contexts
 {
-    public class CheckListContext: BaseContext<CheckListContext>, ICheckListContext
+    public class CheckListContext : BaseCheckListContext, ICheckListContext //BaseContext<CheckListContext>
     {
 
         #region Constructor
 
-        public CheckListContext()
-            : base("CheckListContext")
+        public CheckListContext():
+            base()
         {
 
         }
@@ -45,7 +46,9 @@ namespace TriQuint.CheckList.DAL.Context
 
         #region Properties
 
-        public DbSet<CheckListTemplate> CheckListTemplates { get; set; }
+        public IDbSet<CheckListTemplate> CheckListTemplates { get; set; }
+        public IDbSet<CheckListItemTemplate> CheckListItemTemplates { get; set; }
+        public IDbSet<TemplateSection> TemplateSections { get; set; }
 
         #endregion
 

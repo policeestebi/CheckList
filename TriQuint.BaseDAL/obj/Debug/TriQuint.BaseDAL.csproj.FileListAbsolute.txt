@@ -3,9 +3,10 @@ C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.Ba
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.BaseDAL.pdb
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\EntityFramework.dll
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.BaseEntities.dll
-C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.BaseEntities.pdb
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\EntityFramework.xml
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\obj\Debug\TriQuint.BaseDAL.csprojResolveAssemblyReference.cache
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\obj\Debug\TriQuint.BaseDAL.dll
 C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\obj\Debug\TriQuint.BaseDAL.pdb
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.BaseInterfaces.dll
+C:\Users\eramirez\Desktop\CheckListSystem\TriQuint.BaseDAL\bin\Debug\TriQuint.BaseInterfaces.pdb

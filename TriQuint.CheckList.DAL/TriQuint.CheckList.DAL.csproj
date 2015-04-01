@@ -47,8 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckListInitializer.cs" />
+    <Compile Include="Contexts\BaseCheckListContext.cs" />
     <Compile Include="Contexts\CheckListContext.cs" />
     <Compile Include="Interfaces\ICheckListContext.cs" />
+    <Compile Include="Migrations\201503051437333_AddTestCheckListItemTemplate.cs" />
+    <Compile Include="Migrations\201503051437333_AddTestCheckListItemTemplate.Designer.cs">
+      <DependentUpon>201503051437333_AddTestCheckListItemTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,14 +66,19 @@
       <Project>{98551a3d-4777-43bf-807f-6d0b1ddb5b57}</Project>
       <Name>TriQuint.BaseDAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TriQuint.BaseEntities\TriQuint.BaseEntities.csproj">
-      <Project>{76264811-D493-4EA3-8B32-EF5AE1A7AC41}</Project>
-      <Name>TriQuint.BaseEntities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TriQuint.CheckList.Entities\TriQuint.CheckList.Entities.csproj">
       <Project>{13640b94-bb7b-4554-b84d-95a4d3b93455}</Project>
       <Name>TriQuint.CheckList.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TriQuint.Interfaces\TriQuint.BaseInterfaces.csproj">
+      <Project>{B3E60324-7A42-4374-9904-2B26D239215B}</Project>
+      <Name>TriQuint.BaseInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201503051437333_AddTestCheckListItemTemplate.resx">
+      <DependentUpon>201503051437333_AddTestCheckListItemTemplate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

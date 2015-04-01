@@ -65,10 +65,6 @@
       <Project>{98551A3D-4777-43BF-807F-6D0B1DDB5B57}</Project>
       <Name>TriQuint.BaseDAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TriQuint.BaseEntities\TriQuint.BaseEntities.csproj">
-      <Project>{76264811-d493-4ea3-8b32-ef5ae1a7ac41}</Project>
-      <Name>TriQuint.BaseEntities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TriQuint.CheckList.DAL\TriQuint.CheckList.DAL.csproj">
       <Project>{d6acd2a1-1381-4c24-bcd7-47a7d0a05d69}</Project>
       <Name>TriQuint.CheckList.DAL</Name>
@@ -77,9 +73,15 @@
       <Project>{13640b94-bb7b-4554-b84d-95a4d3b93455}</Project>
       <Name>TriQuint.CheckList.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TriQuint.Interfaces\TriQuint.BaseInterfaces.csproj">
+      <Project>{B3E60324-7A42-4374-9904-2B26D239215B}</Project>
+      <Name>TriQuint.BaseInterfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

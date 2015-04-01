@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TriQuint.BaseEntities.Interfaces;
+using TriQuint.BaseInterfaces;
 
 namespace TriQuint.CheckList.Entities
 {
@@ -20,7 +20,7 @@ namespace TriQuint.CheckList.Entities
 
         #region Properties
 
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public string InsertedUser { get; set; }
 

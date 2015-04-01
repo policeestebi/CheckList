@@ -26,6 +26,8 @@ namespace TriQuint.CheckList.Entities
 
         public virtual TemplateSection TemplateSection { get; set; }
 
+        
+
         #endregion
 
         #region Attributes

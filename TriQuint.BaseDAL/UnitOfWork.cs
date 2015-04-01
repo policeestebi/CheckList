@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TriQuint.BaseDAL.Interfaces;
+using TriQuint.BaseInterfaces;
 
 namespace TriQuint.BaseDAL
 {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using TriQuint.CheckList.Entities;
-using TriQuint.CheckList.DAL.Context;
+using TriQuint.CheckList.DAL.Contexts;
 
 namespace TriQuint.CheckList.DAL
 {

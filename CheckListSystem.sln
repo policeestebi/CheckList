@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.CheckList.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.BaseDAL", "TriQuint.BaseDAL\TriQuint.BaseDAL.csproj", "{98551A3D-4777-43BF-807F-6D0B1DDB5B57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.BaseEntities", "TriQuint.BaseEntities\TriQuint.BaseEntities.csproj", "{76264811-D493-4EA3-8B32-EF5AE1A7AC41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.CheckList.Interfaces", "TriQuint.CheckList.Interfaces\TriQuint.CheckList.Interfaces.csproj", "{5707C745-7D2B-4816-A265-061E8EBD810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.BaseRepositories", "TriQuint.BaseRepositories\TriQuint.BaseRepositories.csproj", "{37EE3F0B-B33C-4C58-97DB-F9A6D9FC695B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.BaseInterfaces", "TriQuint.Interfaces\TriQuint.BaseInterfaces.csproj", "{B3E60324-7A42-4374-9904-2B26D239215B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriQuint.CheckList.Repositories", "TriQuint.CheckList.Repositories\TriQuint.CheckList.Repositories.csproj", "{1126CDB7-0E12-447B-8583-5057BAD4B670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +39,18 @@ Global
 		{98551A3D-4777-43BF-807F-6D0B1DDB5B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98551A3D-4777-43BF-807F-6D0B1DDB5B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98551A3D-4777-43BF-807F-6D0B1DDB5B57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76264811-D493-4EA3-8B32-EF5AE1A7AC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76264811-D493-4EA3-8B32-EF5AE1A7AC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76264811-D493-4EA3-8B32-EF5AE1A7AC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76264811-D493-4EA3-8B32-EF5AE1A7AC41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37EE3F0B-B33C-4C58-97DB-F9A6D9FC695B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37EE3F0B-B33C-4C58-97DB-F9A6D9FC695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37EE3F0B-B33C-4C58-97DB-F9A6D9FC695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37EE3F0B-B33C-4C58-97DB-F9A6D9FC695B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5707C745-7D2B-4816-A265-061E8EBD810F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5707C745-7D2B-4816-A265-061E8EBD810F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5707C745-7D2B-4816-A265-061E8EBD810F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5707C745-7D2B-4816-A265-061E8EBD810F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E60324-7A42-4374-9904-2B26D239215B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E60324-7A42-4374-9904-2B26D239215B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E60324-7A42-4374-9904-2B26D239215B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E60324-7A42-4374-9904-2B26D239215B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1126CDB7-0E12-447B-8583-5057BAD4B670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1126CDB7-0E12-447B-8583-5057BAD4B670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1126CDB7-0E12-447B-8583-5057BAD4B670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1126CDB7-0E12-447B-8583-5057BAD4B670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

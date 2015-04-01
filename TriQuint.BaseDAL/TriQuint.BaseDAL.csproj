@@ -48,8 +48,6 @@
   <ItemGroup>
     <Compile Include="BaseContext.cs" />
     <Compile Include="Extensions\ContextHelper.cs" />
-    <Compile Include="Interfaces\IContext.cs" />
-    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StateHelpers.cs" />
     <Compile Include="UnitOfWork.cs" />
@@ -58,11 +56,10 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\TriQuint.BaseEntities\TriQuint.BaseEntities.csproj">
-      <Project>{76264811-d493-4ea3-8b32-ef5ae1a7ac41}</Project>
-      <Name>TriQuint.BaseEntities</Name>
+    <ProjectReference Include="..\TriQuint.Interfaces\TriQuint.BaseInterfaces.csproj">
+      <Project>{b3e60324-7a42-4374-9904-2b26d239215b}</Project>
+      <Name>TriQuint.BaseInterfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
